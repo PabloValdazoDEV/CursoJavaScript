@@ -126,6 +126,9 @@ function obtenerDatos(e) {
   presu.actulizarDatos(inputGatos, inputCantidad, dataId)
   
 //   console.log(inputGatos, inputCantidad);
+total.value = ''; 
+restante.value = '';
+
 }
 
 ui.preguntarPresupuesto();
